@@ -1,5 +1,6 @@
 import React from "react";
 import Navlists from "./Navlists";
+import Link from "next/link";
 const navItems = [
   {
     id: crypto.randomUUID(),
@@ -63,14 +64,17 @@ const navItems = [
 ];
 export default function NavMenu() {
   return (
-    <nav className="flex justify-center py-4 items-center w-full   border-t-orange-500 border-b-orange-500 border-2">
-      <ul className="flex items-center  gap-8 font-medium">
+    <nav className="flex justify-center py-2 items-center bg-white drop-shadow-sm mb-2">
+      <ul className="flex items-center  gap-8 font-base">
         {navItems.map((navItem) => (
           <Navlists key={navItem.id} navItem={navItem} />
         ))}
-        <button className=" bg-white px-4 py-2 rounded-md ml-10">
-          Join Now
-        </button>
+        <Link
+          href="/contact"
+          className="bg-black text-white px-6 py-2 rounded-md ml-10 transition-all hover:underline"
+        >
+          Join now
+        </Link>
       </ul>
     </nav>
   );

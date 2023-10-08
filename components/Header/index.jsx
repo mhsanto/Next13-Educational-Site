@@ -22,8 +22,8 @@ export default function Header() {
           />
         </div>
         <div className="">
-          <h2 className="text-[3rem] uppercase font-medium">{menuHeader.title}</h2>
-          <p className="text-center text-sm font-medium text-zinc-700">{menuHeader.location}</p>
+          <h2 className="text-[2.5rem] uppercase font-medium">{menuHeader.title}</h2>
+          <p className="text-center text-sm font-medium text-zinc-700 uppercase">{menuHeader.location}</p>
         </div>
         </div>
       </div>

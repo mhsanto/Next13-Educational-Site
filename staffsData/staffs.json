@@ -1,0 +1,387 @@
+[
+  {
+    "id": "418305b4-0184-4ae6-bee4-6005d4e92ddf",
+    "name": "Md. Deluwar Hosain",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/17-10-2019_1571298979.jpg",
+    "title": "Principal",
+    "position": "Administrator",
+    "socials": [
+      {
+        "id": "610c7255-54da-439a-97ec-21ff9bf1b048",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "df39d590-6763-43db-bc48-613ff322cbe7",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "f64420ec-cd26-4631-9ece-df059a4d31ea",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  
+  {
+    "id": "2d15c4e8-509f-4767-b7c3-285472cf4e2e",
+    "name": "Emdadul Hoque",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/21-09-2019_1569039532.jpg",
+    "title": "Assistant Professor",
+    "position": "Bachelor of Business Administration (BBA)",
+    "socials": [
+      {
+        "id": "a1a385ff-18b8-4479-8324-f0507468f0c4",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "2a27765e-7e9a-4ba2-b915-e0a4ce280c61",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "9a62cc9e-9026-44b1-93cd-ac8c15aa060d",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "84df924e-b772-43f6-89f5-6c990bb02347",
+    "name": "Sarmin Rahman",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/30-10-2019_1572425163.jpg",
+    "title": "Lecturer",
+    "position": "Bachelor of Business Administration (BBA)",
+    "socials": [
+      {
+        "id": "c369146c-b328-4542-a34b-c084463c24e0",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "78f5bdab-225d-43b3-9d23-5c7ca93f20a2",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "abd2cfdc-4f29-4c6e-b3d3-c0fb75279557",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "a5da63ab-13c3-41bd-a74a-96c9fc466586",
+    "name": "Nipa Islam",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/07-08-2019_1565163629.jpg",
+    "title": "Lecturer",
+    "position": "Bachelor of Business Administration (BBA)",
+    "socials": [
+      {
+        "id": "25230bd6-f18c-4b5d-a3e2-24801f6fbec3",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "b1b81513-9ae8-43ea-8e34-8f79688278b0",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "b7924d08-4bb3-4950-8510-42008b54d36b",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "a5bc82a9-a2a1-4a66-b842-9cd65d08996c",
+    "name": "Niger Sultana",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/21-07-2019_1563699187.jpg",
+    "title": "Assistant Professor",
+    "position": "Bachelor of Business Administration (BBA)",
+    "socials": [
+      {
+        "id": "6a9593d1-6fae-43cc-8f95-8ce6d61af4fa",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "37d7054e-ffde-4791-848e-d29229248b50",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "79edd4de-b349-4e41-bd39-0081bfa00eee",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "38ae45a0-dde7-448c-a38b-e45735ca85f2",
+    "name": "Niger Sultana",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/21-09-2019_1569036594.jpg",
+    "title": "Senior Lecturer",
+    "position": "Bachelor of Business Administration (BBA)",
+    "socials": [
+      {
+        "id": "a7745a50-8905-4c9c-8f17-1101c8fa0913",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "2e47ce28-12b1-4077-b7a4-04b06a788706",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "6241aeca-52b5-4b67-9543-ef084b4966e5",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "ae3c4ff1-219d-4c8f-b9f2-853f4d5d6e0e",
+    "name": "Md. Nasir Uddin",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/23-10-2019_1571829899.jpg",
+    "title": "Senior Lecturer",
+    "position": "Fashion Design & Technology (FDT)",
+    "socials": [
+      {
+        "id": "df7c1613-e8fe-42d3-b06a-c8ab2071c770",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "fbc4afe2-351e-40ae-b511-a21a8b8133cc",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "208c2f76-470e-4af6-92f4-574191f3ab8a",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "1e50cc97-6f5f-4064-8d67-fbffea3f89dc",
+    "name": "Md. Abul Kalam Azad",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/18-09-2019_1568782379.jpg",
+    "title": "Assistant Professor",
+    "position": "Fashion Design & Technology (FDT)",
+    "socials": [
+      {
+        "id": "a12f86f3-a8b3-4f02-ba71-0059557f861c",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "680fd2b7-c1b1-4d13-8691-5edc2e86a8f0",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "62968540-5ec1-4f6d-90a5-22ae5285bbf5",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "945b6378-dc7b-4b9a-96c0-360c9bdbd2a5",
+    "name": "Razia Sultana",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/18-09-2019_1568782485.png",
+    "title": "Assistant Professor",
+    "position": "Fashion Design & Technology (FDT)",
+    "socials": [
+      {
+        "id": "3a265648-625d-4fe1-8751-105abcb744b0",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "c3eb83f8-e9cc-43c4-ad03-8ce4aea2bf12",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "b661e72a-f680-4dfc-a495-831c3401b37c",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "235f57af-a1f6-4a4e-9bab-e3dfdb13e298",
+    "name": "Salma Khatun",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/19-09-2019_1568889575.png",
+    "title": "Senior Lecturer",
+    "position": "Fashion Design & Technology (FDT)",
+    "socials": [
+      {
+        "id": "d1a8846d-a7bb-4140-954c-08eb5009578e",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "6a3cb815-e9de-45f0-b4da-02323e1d84a6",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "bef067e1-ac96-4d03-aff8-3f46dd956115",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "0cc822a6-e249-4613-b341-13ab0e16d495",
+    "name": "Shamima Nasrin",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/12-09-2019_1568264593.jpg",
+    "title": "Lecturer",
+    "position": "Apparel Manufacture & Technology (AMT)",
+    "socials": [
+      {
+        "id": "c37bb61c-4878-4616-b173-90be70e5d893",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "8ee574f0-b4ea-4e56-b95a-b6c99aa9eaa7",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "06bfa16b-22aa-481b-b8f7-a077b47809ef",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "c4e49469-f5c2-4a9d-b1b3-eca1afedec4c",
+    "name": "Shahriar Hossain",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/21-09-2019_1569035947.jpg",
+    "title": "Lecturer",
+    "position": "Apparel Manufacture & Technology (AMT)",
+    "socials": [
+      {
+        "id": "fb5597a7-38aa-4696-bcc1-24b1bbe70bd6",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "657f175d-02f8-4263-8127-9e536506e6c3",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "1cca2a77-1192-4f08-8495-2cc44cd7a8d8",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "233a506a-57ee-4b08-b1ca-c6ce648723fe",
+    "name": "Abu Bakkar Siddik",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/21-09-2019_1569035114.jpg",
+    "title": "Lecturer",
+    "position": "Apparel Manufacture & Technology (AMT)",
+    "socials": [
+      {
+        "id": "a6a21e98-a634-4886-83f8-7c148ebaec9c",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "77e58789-139b-4ac0-b834-a27f7b825df8",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "45c385d5-69af-44bb-9c13-424700117f48",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "247235b0-9771-4fe2-bdd7-080c179ed7ea",
+    "name": "Muhammad Iqbal Hossain",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/21-09-2019_1569036620.jpg",
+    "title": "Lecturer",
+    "position": "Apparel Manufacture & Technology (AMT)",
+    "socials": [
+      {
+        "id": "0f56ecda-93f1-444f-8727-cf661e9f4ab4",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "8df2781f-6a14-439e-8f7b-fa73219072de",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "f27bf894-9d42-448b-b301-c7bc5a9fe275",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "21664ce1-c7ec-4844-a22e-6d9680965598",
+    "name": "Md. Manirul Islam",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/19-09-2019_1568889134.JPG",
+    "title": "Lecturer",
+    "position": "Apparel Manufacture & Technology (AMT)",
+    "socials": [
+      {
+        "id": "fddf25fd-1a7f-4169-b2ef-c6a80969ff87",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "8dadb231-9ee8-4ae5-a039-62ae04a4df50",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "7f4d5595-e922-4cb7-a7dd-045e92028f28",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "id": "850f2e48-729f-4692-aff6-7e4720a7615f",
+    "name": "Upal Banik",
+    "img": "http://www.bgmi.edu.bd/public/teacher_image/18-09-2019_1568789921.jpg",
+    "title": "Lecturer",
+    "position": "Apparel Manufacture & Technology (AMT)",
+    "socials": [
+      {
+        "id": "9988c3d8-349f-45a6-b8d0-70c658d0acc2",
+        "name": "facebook",
+        "href": "/"
+      },
+      {
+        "id": "bd674ca9-cfcb-4d83-8eae-67faf2556a22",
+        "name": "instagram",
+        "href": "/"
+      },
+      {
+        "id": "e79173fa-258a-4882-86bc-b856c14e3497",
+        "name": "Twitter",
+        "href": "/"
+      }
+    ]
+  }
+]
