@@ -1,6 +1,7 @@
 "use client";
 import { useState, useMemo } from "react";
 import Swiper from "@/components/Hero/Swiper";
+import SwiperOne from "../Swipers/SwiperOne";
 
 const courseText = {
   title: "Services we provide",
@@ -16,8 +17,8 @@ export default function Courses() {
   const { title, slogan, desc } = memoizedCourseText;
 
   return (
-    <div className="grid grid-cols-2 items-center container py-6">
-      <div>
+    <div className="flex items-center  py-6">
+      <div className="pl-16 pr-12">
         <div className="flex flex-col gap-2 mb-4 ">
           <h3 className="text-3xl font-semibold uppercase ">{title}</h3>
           <p className="text-base font-medium max-w-lg tracking-tighter text-[gray] pb-5">
@@ -26,9 +27,9 @@ export default function Courses() {
          
         </div>
 
-        <div className="text-base font-sm max-w-lg text-start leading-5 text-slate-900">
+        <div className="max-w-lg text-start text-sm text-gray-800 font-medium ">
           {show ? (
-            <p>
+            <p className="">
               {desc}
               <span
                 onClick={() => setShow(!show)}
@@ -38,7 +39,7 @@ export default function Courses() {
               </span>
             </p>
           ) : (
-            <p className="tracking-tight leading-7">
+            <p>
               {desc.slice(0, 700)}
               <span
                 onClick={() => setShow(!show)}
@@ -50,7 +51,7 @@ export default function Courses() {
           )}
         </div>
       </div>
-      <Swiper />
+    <SwiperOne />
     </div>
   );
 }

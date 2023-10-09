@@ -1,17 +1,18 @@
-"use client"
-import React, { useRef, useState } from 'react';
+"use client";
+import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import './custom.css';
-
+import "./custom.css";
+import slider from "@/staffsData/Slider.json";
 // import required modules
-import { Pagination, Navigation,Autoplay } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import Image from "next/image";
 
 export default function SwiperJS() {
   return (
@@ -24,21 +25,23 @@ export default function SwiperJS() {
           clickable: true,
         }}
         autoplay={{
-            delay:5000
+          delay: 5000,
         }}
         navigation={true}
-        modules={[Pagination, Navigation,Autoplay]}
+        modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>Hello</SwiperSlide>
+        <SwiperSlide>Hello</SwiperSlide>
+        <SwiperSlide>Hello</SwiperSlide>
+        <SwiperSlide>Hello</SwiperSlide>
+        <SwiperSlide>Hello</SwiperSlide>
+        <SwiperSlide>Hello</SwiperSlide>
+        {/* {slider.map((s, i) => (
+          <SwiperSlide key={i} className="swiper">
+            <img src={`/assets/${s.img}`} className="w-full h-auto object-contain aspect-video" alt="" />
+          </SwiperSlide>
+        ))} */}
       </Swiper>
     </>
   );

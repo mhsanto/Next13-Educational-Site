@@ -89,30 +89,30 @@ export default function Footer() {
             Community
           </div>
           {/* Links */}
-          <a
-            href="#"
+          <Link
+            href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            GitHub
-          </a>
-          <a
-            href="#"
-            className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Discord
-          </a>
-          <a
-            href="#"
+            Facebook
+          </Link>
+          <Link
+            href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
             Twitter
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="/"
+            className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
+          >
+            Linkedin
+          </Link>
+          <Link
+            href="/"
             className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
             YouTube
-          </a>
+          </Link>
         </div>
       </div>
       {/* Copyright Bar */}
@@ -135,23 +135,7 @@ export default function Footer() {
             </Link>
           </div>
           {/* Required Unicons (if you want) */}
-          <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
-            <a href="#" className="w-6 mx-1">
-              <i className="uil uil-facebook-f" />
-            </a>
-            <a href="#" className="w-6 mx-1">
-              <i className="uil uil-twitter-alt" />
-            </a>
-            <a href="#" className="w-6 mx-1">
-              <i className="uil uil-youtube" />
-            </a>
-            <a href="#" className="w-6 mx-1">
-              <i className="uil uil-linkedin" />
-            </a>
-            <a href="#" className="w-6 mx-1">
-              <i className="uil uil-instagram" />
-            </a>
-          </div>
+      
         </div>
       </div>
       <ScrollToTopButton />
