@@ -1,11 +1,12 @@
 import Header from "@/components/Header";
 import "./globals.css";
 import { Poppins } from "next/font/google";
+import Footer from "@/components/Footer";
 
 const poppins = Poppins({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-poppins',
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-poppins",
   weight: ["400", "500", "600", "700", "800", "900"],
 });
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${poppins.varia}`}>
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -14,13 +14,12 @@ export default function Stuffs() {
   };
   return (
     <>
-      {/* component */}
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-gray-900 ">
         <div className="container px-6 py-10 mx-auto">
-          <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
+          <h1 className="text-3xl font-semibold text-center  capitalize lg:text-4xl text-white">
             Our Teachers
           </h1>
-          <p className="max-w-4xl mx-auto my-6 text-center text-gray-300 dark:text-gray-300">
+          <p className="max-w-4xl mx-auto my-5 text-center text-gray-300 ">
             BGIFT Institute of Science and Technology (BIST) is one of the best
             professional institute under National University. BIST has highly
             qualified and highly experienced administration, teacher’s and
@@ -30,10 +29,10 @@ export default function Stuffs() {
             university. By which we build a potential and dynamic team to
             achieved great success.
           </p>
-          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+          <div className="grid grid-cols-1 gap-5 mt-4 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             {staffs.slice(0, displayCount).map((staff) => (
               <div
-                className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-slate-600 rounded-xl shadow-lg"
+                className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-stone-950 rounded-xl shadow-lg"
                 key={staff.id}
               >
                 {staff.img ? (
