@@ -5,7 +5,7 @@ import ScrollToTopButton from "./ScrollToTop";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 pt-10 sm:mt-10 ">
+    <footer className="bg-gray-900 pt-10 sm:mt-10 select-none ">
       <div className="max-w-6xl mx-auto text-gray-800 flex flex-wrap justify-between ">
         {/* Col-1 */}
         <div className="py-5 w-1/2 sm:w-4/12 md:w-[27%] ">

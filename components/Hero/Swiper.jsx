@@ -31,17 +31,15 @@ export default function SwiperJS() {
         modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>Hello</SwiperSlide>
-        <SwiperSlide>Hello</SwiperSlide>
-        <SwiperSlide>Hello</SwiperSlide>
-        <SwiperSlide>Hello</SwiperSlide>
-        <SwiperSlide>Hello</SwiperSlide>
-        <SwiperSlide>Hello</SwiperSlide>
-        {/* {slider.map((s, i) => (
+        {slider.map((s, i) => (
           <SwiperSlide key={i} className="swiper">
-            <img src={`/assets/${s.img}`} className="w-full h-auto object-contain aspect-video" alt="" />
+            <img
+              src={`/assets/${s.img}`}
+              className="w-full h-auto object-contain aspect-video"
+              alt=""
+            />
           </SwiperSlide>
-        ))} */}
+        ))}
       </Swiper>
     </>
   );

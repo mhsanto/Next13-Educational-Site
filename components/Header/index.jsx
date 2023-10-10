@@ -10,24 +10,27 @@ const menuHeader = {
 export default function Header() {
   return (
     <>
-      <Notice />
       <div className="container pb-5">
         <div className="flex gap-5 justify-center">
-        <div className="flex">
-          <Image
-            src={`/assets/${menuHeader.logo}`}
-            height={90}
-            width={90}
-            alt="BIST"
-          />
-        </div>
-        <div className="">
-          <h2 className="text-[2.5rem] uppercase font-medium">{menuHeader.title}</h2>
-          <p className="text-center text-sm font-medium text-zinc-700 uppercase">{menuHeader.location}</p>
-        </div>
+          <div className="flex">
+            <Image
+              src={`/assets/${menuHeader.logo}`}
+              height={90}
+              width={90}
+              alt="BIST"
+            />
+          </div>
+          <div className="">
+            <h2 className="text-[2.5rem] uppercase font-medium">
+              {menuHeader.title}
+            </h2>
+            <p className="text-center text-sm font-medium text-zinc-700 uppercase">
+              {menuHeader.location}
+            </p>
+          </div>
         </div>
       </div>
-      <NavMenu/>
+      <NavMenu />
     </>
   );
 }

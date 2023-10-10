@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import "./globals.css";
 import { Poppins } from "next/font/google";
 import Footer from "@/components/Footer";
-
+import { AuthContextProvider } from "@/lib/Context";
 const poppins = Poppins({
   subsets: ["latin"],
   display: "swap",
@@ -19,8 +19,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${poppins.varia}`}>
-        {children}
-        <Footer />
+        <AuthContextProvider>
+          <Header/>
+          {children}
+          <Footer />
+        </AuthContextProvider>
       </body>
     </html>
   );

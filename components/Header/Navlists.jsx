@@ -5,11 +5,11 @@ export default function Navlists({ navItem }) {
   return (
     <>
       {navItem.subMenu ? (
-        <li className="text-lg hover:font-medium">{navItem.title}</li>
+        <li className="text-base">{navItem.title}</li>
       ) : (
         <Link href={navItem.href}>
           {" "}
-          <li className="text-lg hover:font-medium ">{navItem.title}</li>
+          <li className="text-base">{navItem.title}</li>
         </Link>
       )}
     </>

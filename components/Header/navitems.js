@@ -1,115 +1,61 @@
-// import {
-//     BiLogoCss3,
-//     BiLogoJavascript,
-//     BiLogoReact,
-//     BiLogoNodejs,
-//     BiLogoTailwindCss,
-//     BiLogoMongodb,
-//     BiLocationPlus,
-//   } from "react-icons/bi";
-//   import { AiOutlineConsoleSql } from "react-icons/ai";
-//   import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
-//   import { TbBrandNextjs } from "react-icons/tb";
-//   import { SiExpress } from "react-icons/si";
+export const navItems = [
+  {
+    id: crypto.randomUUID(),
+    title: "Home",
+    href: "/",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Contact Us",
+    href: "/contact",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Notice",
+    href: "/notice",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Our Students",
+    desc: "lorem d dlfaj fl;adjfla jld;afja;ldjf;lj",
+    href: "/students",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "About Us",
+    href: "",
+    subMenu: [
+      {
+        id: crypto.randomUUID(),
+        image: "",
+        title: "About Us",
+        desc: "lorem d dlfaj fl;adjfla jld;afja;ldjf;lj",
+        href: "/about",
+      },
+      {
+        id: crypto.randomUUID(),
+        image: "",
+        title: "Head of Institute",
+        desc: "lorem d dlfaj fl;adjfla jld;afja;ldjf;lj",
+        href: "/head",
+      },
 
-  export const navItems = [
-    {
-      id: crypto.randomUUID(),
-      name: "HOME",
-      type: "list",
-      
-      href: "/",
-    },
-    {
-      id: crypto.randomUUID(),
-      name: "SKILLS",
-      type: "list",
-      
-      href: "",
-      submenu: [
-        {
-          id: crypto.randomUUID(),
-          name: "CSS",
-        //   icon: <BiLogoCss3 size={22} />,
-        },
-        {
-          id: crypto.randomUUID(),
-          name: "Javascript",
-        //   icon: <BiLogoJavascript size={22} />,
-        },
-        {
-          id: crypto.randomUUID(),
-          name: "React",
-        //   icon: <BiLogoReact size={22} />,
-        },
-        {
-          id: crypto.randomUUID(),
-          name: "Next",
-        //   icon: <TbBrandNextjs size={22} />,
-        },
-        {
-          id: crypto.randomUUID(),
-          name: "Node",
-        //   icon: <BiLogoNodejs size={22} />,
-        },
-        {
-          id: crypto.randomUUID(),
-          name: "Mongo",
-        //   icon: <BiLogoMongodb size={22} />,
-        },
-        {
-          id: crypto.randomUUID(),
-          name: "Express",
-        //   icon: <SiExpress size={22} />,
-        },
-        {
-          id: crypto.randomUUID(),
-          name: "Prisma",
-        //   icon: <AiOutlineConsoleSql size={22} />,
-        },
-        {
-          id: crypto.randomUUID(),
-          name: "Tailwind",
-        //   icon: <BiLogoTailwindCss size={22} />,
-        },
-      ],
-    },
-    {
-      id: crypto.randomUUID(),
-      name: "LOCATION",
-      type: "list",
-      
-      href: "",
-      submenu: [
-        {
-          id: crypto.randomUUID(),
-          name: "Gacha Road,Borobari,Gazipur-1703",
-        //   icon: <BiLocationPlus size={22} />,
-        },
-      ],
-    },
-    {
-      id: crypto.randomUUID(),
-      name: "SOCIALS",
-      type: "list",
-      
-      href: "/",
-      submenu: [
-        {
-          id: crypto.randomUUID(),
-          name: "Facebook",
-        //   icon: <BsFacebook size={22} />,
-        },
-        {
-          id: crypto.randomUUID(),
-          name: "Github",
-        //   icon: <BsGithub size={22} />,
-        },
-        {
-          id: crypto.randomUUID(),
-          name: "Linkedin",
-        //   icon: <BsLinkedin size={22} />,
-        },
-      ],
-    },
-  ];
+      {
+        id: crypto.randomUUID(),
+        title: "Exam Results",
+        desc: "lorem d dlfaj fl;adjfla jld;afja;ldjf;lj",
+        href: "/exam",
+      },
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Education & Training",
+    href: "/education",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Gallery",
+    href: "/gallery",
+  },
+];
