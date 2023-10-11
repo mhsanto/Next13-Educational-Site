@@ -1,7 +1,11 @@
-import React from 'react'
+import ImageGallery from "@/components/ImageGallery";
+import UploadForm from "@/components/ImageGallery/UploadForm";
 
 export default function Students() {
   return (
-    <div>Students</div>
-  )
+    <div>
+      {/* <UploadForm /> */}
+      <ImageGallery />
+    </div>
+  );
 }

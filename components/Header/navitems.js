@@ -35,4 +35,9 @@ export const navItems = [
     title: "Gallery",
     href: "/gallery",
   },
+  {
+    id: crypto.randomUUID(),
+    title: "Exam Results",
+    href: "/result",
+  },
 ];

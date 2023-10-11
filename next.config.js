@@ -1,21 +1,27 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        remotePatterns: [
-          {
-            protocol: 'http',
-            hostname: 'www.bgmi.edu.bd',
-            port: '',
-            pathname: '/public/teacher_image/**',
-          },
-          {
-            protocol: 'https',
-            hostname: 'cdn.pixabay.com',
-            port: '',
-            pathname: '/photo/**',
-          },
-        ],
+  images: {
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "www.bgmi.edu.bd",
+        port: "",
+        pathname: "/public/teacher_image/**",
       },
-}
+      {
+        protocol: "https",
+        hostname: "cdn.pixabay.com",
+        port: "",
+        pathname: "/photo/**",
+      },
+      {
+        protocol: "https",
+        hostname: "firebasestorage.googleapis.com",
+ 
+        pathname: "/v0/b/**",
+      },
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
