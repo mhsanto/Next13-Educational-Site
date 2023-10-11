@@ -1,6 +1,5 @@
 import React from "react";
 import Navlists from "./Navlists";
-import Link from "next/link";
 import { navItems } from "./navitems";
 export default function NavMenu() {
   return (

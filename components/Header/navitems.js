@@ -23,31 +23,8 @@ export const navItems = [
   {
     id: crypto.randomUUID(),
     title: "About Us",
-    href: "",
-    subMenu: [
-      {
-        id: crypto.randomUUID(),
-        image: "",
-        title: "About Us",
-        desc: "lorem d dlfaj fl;adjfla jld;afja;ldjf;lj",
-        href: "/about",
-      },
-      {
-        id: crypto.randomUUID(),
-        image: "",
-        title: "Head of Institute",
-        desc: "lorem d dlfaj fl;adjfla jld;afja;ldjf;lj",
-        href: "/head",
-      },
-
-      {
-        id: crypto.randomUUID(),
-        title: "Exam Results",
-        desc: "lorem d dlfaj fl;adjfla jld;afja;ldjf;lj",
-        href: "/exam",
-      },
-    ],
-  },
+    href: "/about-us",
+     },
   {
     id: crypto.randomUUID(),
     title: "Education & Training",

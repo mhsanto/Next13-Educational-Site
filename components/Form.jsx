@@ -2,7 +2,7 @@
 import { UserAuth } from "@/lib/Context";
 import { useState } from "react";
 export default function Form() {
-  const { signin } = UserAuth();
+  const { signup } = UserAuth();
   const [errorMessage, setErrorMessage] = useState("");
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -18,7 +18,7 @@ export default function Form() {
       );
     } else {
       const { email, password } = e.target.elements;
-      await signin(email.value, password.value);
+      await signup(email.value, password.value);
     }
   };
   return (
