@@ -17,7 +17,7 @@ export default function Contact() {
           <div className="absolute bg-black opacity-60 inset-0 z-0" />
           <div className="w-full px-24 z-10">
             <h1 className="text-5xl font-bold text-left tracking-wide">
-              We prioritize our student's success.
+              We prioritize our student&apos;s success.
             </h1>
             <p className="text-3xl my-4">
               A life well-lived is a collection of cherished moments.
