@@ -8,7 +8,6 @@ export default function NavMenu() {
         {navItems.map((navItem) => (
           <Navlists key={navItem.id} navItem={navItem} />
         ))}
-        Join us
       </ul>
     </nav>
   );

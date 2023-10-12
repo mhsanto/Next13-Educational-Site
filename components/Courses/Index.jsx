@@ -1,6 +1,5 @@
 "use client";
 import { useState, useMemo } from "react";
-import Swiper from "@/components/Hero/Swiper";
 import SwiperOne from "../Swipers/SwiperOne";
 
 const courseText = {

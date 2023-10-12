@@ -12,19 +12,20 @@ export default function Header() {
     <>
       <div className="container pb-5">
         <div className="flex gap-5 justify-center">
-          <div className="flex">
+          <div className="flex w-fit h-auto">
             <Image
               src={`/assets/${menuHeader.logo}`}
               height={90}
               width={90}
               alt="BIST"
+              className="object-contain"
             />
           </div>
-          <div className="">
-            <h2 className="text-[2.5rem] uppercase font-medium">
+          <div className="flex flex-col items-center leading-tight justify-center ">
+            <h2 className="text-4xl uppercase font-medium">
               {menuHeader.title}
             </h2>
-            <p className="text-center text-sm font-medium text-zinc-700 uppercase">
+            <p className="text-center text-sm font-medium text-zinc-700 capitalize">
               {menuHeader.location}
             </p>
           </div>

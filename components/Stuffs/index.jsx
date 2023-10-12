@@ -32,7 +32,7 @@ export default function Stuffs() {
           <div className="grid grid-cols-1 gap-5 mt-4 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             {staffs.slice(0, displayCount).map((staff) => (
               <div
-                className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-[#F1FBFE]rounded-xl shadow-lg"
+                className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-gray-700 rounded-xl shadow-lg"
                 key={staff.id}
               >
                 {staff.img ? (
