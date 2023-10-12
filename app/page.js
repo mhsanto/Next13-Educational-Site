@@ -7,11 +7,12 @@ import Stuffs from "@/components/Stuffs";
 const data = [];
 export default function Home() {
   return (
+  <>
     <main>
-      <Notice />
       <Hero />
       <Courses />
       <Stuffs />
     </main>
+  </>
   );
 }
