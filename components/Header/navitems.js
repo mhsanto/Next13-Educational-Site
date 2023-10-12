@@ -38,6 +38,6 @@ export const navItems = [
   {
     id: crypto.randomUUID(),
     title: "Exam Results",
-    href: "/result",
+    href: "http://103.197.207.70:8444/result_arch/index.php",
   },
 ];

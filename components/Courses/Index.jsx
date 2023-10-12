@@ -1,7 +1,6 @@
 "use client";
 import { useState, useMemo } from "react";
 import SwiperOne from "../Swipers/SwiperOne";
-
 const courseText = {
   title: "Services we provide",
   slogan:
@@ -16,23 +15,22 @@ export default function Courses() {
   const { title, slogan, desc } = memoizedCourseText;
 
   return (
-    <div className="flex items-center  py-6">
-      <div className="pl-16 pr-12">
-        <div className="flex flex-col gap-2 mb-4 ">
+    <div className="grid grid-cols-1 lg:grid-cols-2  items-center py-6">
+      <div className="sm:pl-16 py-7  px-5 ">
+        <div className="flex flex-col gap-2 mb-4 items-center lg:items-start ">
           <h3 className="text-3xl font-semibold uppercase ">{title}</h3>
-          <p className="text-base font-medium max-w-lg tracking-tighter text-[gray] pb-5">
-            {slogan}
+          <p className="text-base font-medium max-w-lg tracking-tighter text-[gray] pb-5 text-center lg:text-left">
+            F{slogan}
           </p>
-         
         </div>
 
-        <div className="max-w-lg text-start text-sm text-gray-800 font-medium ">
+        <div className="lg:max-w-lg max-w-3xl lg:text-start text-center mx-auto lg:mx-0 text-sm text-gray-800 font-medium ">
           {show ? (
             <p className="">
               {desc}
               <span
                 onClick={() => setShow(!show)}
-                className="font-medium hover:underline cursor-pointer"
+                className="font-medium underline cursor-pointer"
               >
                 {"  "} show less
               </span>
@@ -42,7 +40,7 @@ export default function Courses() {
               {desc.slice(0, 700)}
               <span
                 onClick={() => setShow(!show)}
-                className="font-medium hover:underline cursor-pointer"
+                className="font-medium underline cursor-pointer"
               >
                 {"  "} show more...
               </span>
@@ -50,7 +48,8 @@ export default function Courses() {
           )}
         </div>
       </div>
-    <SwiperOne />
+
+      <SwiperOne />
     </div>
   );
 }

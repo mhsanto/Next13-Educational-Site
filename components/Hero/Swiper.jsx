@@ -33,7 +33,9 @@ export default function SwiperJS() {
       >
         {slider.map((s, i) => (
           <SwiperSlide key={i} className="swiper">
-            <img
+            <Image
+              width={1000}
+              height={300}
               src={`/assets/${s.img}`}
               className="w-full h-auto object-contain aspect-video"
               alt=""

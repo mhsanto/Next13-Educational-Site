@@ -20,6 +20,12 @@ const nextConfig = {
  
         pathname: "/v0/b/**",
       },
+      {
+        protocol: "http",
+        hostname: "http://103.197.207.70:8444",
+ 
+        pathname: "/**",
+      },
     ],
   },
 };

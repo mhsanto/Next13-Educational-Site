@@ -24,7 +24,7 @@ export default function SwiperOne() {
     return starIcons;
   };
   return (
-    <Swiper slidesPerView={3} spaceBetween={30} className="SwiperOne">
+    <Swiper slidesPerView={3} rewind={true} className="SwiperOne">
       {courses.map((course) => (
         <SwiperSlide
           key={course.id}
