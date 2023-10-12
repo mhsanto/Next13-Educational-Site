@@ -15,9 +15,9 @@ export default function Courses() {
   const { title, slogan, desc } = memoizedCourseText;
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2  items-center py-6">
-      <div className="sm:pl-16 py-7  px-5 ">
-        <div className="flex flex-col gap-2 mb-4 items-center lg:items-start ">
+    <div className="flex flex-wrap  md:flex-nowrap items-center py-6">
+      <div className="sm:pl-16 lg:pr-12 flex- shrink py-7  px-5 ">
+        <div className="flex flex-col gap-2 mb-4 items-center lg:items-start flex-shrink">
           <h3 className="text-3xl font-semibold uppercase ">{title}</h3>
           <p className="text-base font-medium max-w-lg tracking-tighter text-[gray] pb-5 text-center lg:text-left">
             F{slogan}
